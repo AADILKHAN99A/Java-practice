@@ -1,7 +1,6 @@
 import java.lang.*;
-import java.util.*;
 
-class datasizerange
+class dataSizeRange
 {
 	public static void main(String arg[])
 	{

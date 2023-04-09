@@ -1,6 +1,6 @@
 import java.lang.*;
 
-public class createobj {
+public class createObj {
     public static void main(String args[]) {
         int x = 1, y = 2, z;
         z = x + y;
@@ -13,6 +13,7 @@ public class createobj {
         Integer l = new Integer(4);
         Integer m = new Integer(k + l);
         System.out.println(m);
+
 
     }
 }
