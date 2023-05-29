@@ -25,7 +25,7 @@ public class bitwiseOperator {
         System.out.println("Right Shift "+z);
 //        System.out.println(String.format("%s",Integer.toBinaryString(z)));
 
-        z=y>>>1;
+        z=y>>>1;                                                                // it shift the bits untill end and then make last bit 0(First)
         System.out.println("Unsigned Right Shift "+z);
         System.out.println(String.format("%32s",Integer.toBinaryString(z)));  // to show all 32 bits
 
