@@ -27,7 +27,7 @@ public class bitwiseOperator {
 
         z=y>>>1;
         System.out.println("Unsigned Right Shift "+z);
-        System.out.println(String.format("%32s",Integer.toBinaryString(z)));
+        System.out.println(String.format("%32s",Integer.toBinaryString(z)));  // to show all 32 bits
 
         z=~x;
         System.out.println("Not "+z);
