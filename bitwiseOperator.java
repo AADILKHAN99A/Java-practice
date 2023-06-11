@@ -5,7 +5,6 @@ public class bitwiseOperator {
         int a=0b1010;   //10
         int b=0b1101;   //13
 
-
         z=a&b;
         System.out.println("And "+z);
 //        System.out.println(String.format("%s",Integer.toBinaryString(z)));

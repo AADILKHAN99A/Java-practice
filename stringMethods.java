@@ -18,7 +18,7 @@ public class stringMethods {
         System.out.println(str3);
 
         String sub = str3.substring(3, 9); // 3= beginIndex , 9 = endingIndex(9-1) "if you give a single argument then
-        // it is take it as a beginIndex"
+                                           // it is take it as a beginIndex"
         System.out.println(sub);
 
         String rep = str3.replace('r', 's');
@@ -35,7 +35,7 @@ public class stringMethods {
 
         System.out.println(str3.indexOf("a", 7)); // search "a" from starting index = 7 (L->R)
 
-        System.out.println(str3.lastIndexOf("Khan")); // search for string "Khan" from lastindex (R->L)
+        System.out.println(str3.lastIndexOf("Khan")); // search for string "Khan" from last index (R->L)
 
         // print whole string using loop
 
@@ -48,25 +48,25 @@ public class stringMethods {
         }
 
         String str4 = "Mr. Aadil Khan";
-        System.out.println(str4 == str3); // because in str3 object is changed from initaial to trimmed
+        System.out.println(str4 == str3); // because in str3 object is changed from initial to trimmed
 
         System.out.println(str3.equals(str4));  // it checks that string str3 is match with str4 or not (not check that object is also same or not)
-        // case sensative
+        // case sensitive
 
         String str5 = "MR. AADIL KHAN";
-        System.out.println(str4.equalsIgnoreCase(str5));  // same as above method but case Insensative
+        System.out.println(str4.equalsIgnoreCase(str5));  // same as above method but case Insensitive
         String st= "python";
         String st1= "java";
-        System.out.println(st.compareTo(st1));  // st > st1 so return =1 but 'p' is 6 times greater then 'j' (ASCII)
+        System.out.println(st.compareTo(st1));  // st > st1 so return =1 but 'p' is 6 times greater than 'j' (ASCII)
                                                 // if st< st1, return = -1   if st = st1, return = 0
 
         String s = "china wall";
         String s1 = "china tall";
-        System.out.println(s.compareTo(s1)); // china is same but 'w' is 3 times greater then 't'
+        System.out.println(s.compareTo(s1)); // china is same but 'w' is 3 times greater than 't'
 
         System.out.println(s.contains("wall"));  // check that "wall" is present in string or not
 
-        System.out.println(s.concat(s1));  // concatinat strings s and s1
+        System.out.println(s.concat(s1));  // concatenate strings s and s1
         int x = 65;
         String stt = String.valueOf(x);  // convert any type of data into string
         System.out.println(stt);
