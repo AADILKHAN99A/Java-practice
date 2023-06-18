@@ -29,5 +29,24 @@ public class arrayPractice3 {
         {
             System.out.print(x+" ");
         }
+
+
+        //      Increasing Size of Array
+
+        System.out.println("\nIncreasing Size of Array");
+        int D[]=new int[2*A.length];
+
+        System.out.println("Berfore:"+A.length);
+
+        for(int i = 0;i<A.length;i++)   //copy the element from A -> D
+        {
+            D[i]=A[i];
+        }
+
+        A=D;                             //make the A reference holds the D object/Array
+        D=null;                          //make the D reference null
+        System.out.println("After: "+A.length);
+
+
     }
 }
